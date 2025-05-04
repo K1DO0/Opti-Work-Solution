@@ -1,0 +1,282 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+
+header {
+  background-color: #1f1f1f;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo h1 {
+  font-size: 1.8em;
+  color: #ffffff;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.1em;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #00bfff;
+}
+
+
+#hero {
+  background: url('images/hero.jpg') no-repeat center center/cover;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+#hero h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+#hero p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.cta {
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: #00bfff;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.cta:hover {
+  background-color: #009acd;
+}
+
+
+section {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+section h3 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+section p, section ul {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+section ul {
+  list-style: none;
+}
+
+section ul li {
+  margin-bottom: 10px;
+}
+
+
+#about {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#about img {
+  max-width: 400px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+#about p {
+  max-width: 500px;
+  margin: 20px;
+}
+
+
+#contact p {
+  margin-bottom: 10px;
+}
+
+
+footer {
+  background-color: #1f1f1f;
+  text-align: center;
+  padding: 20px;
+  color: #bbbbbb;
+  font-size: 0.9em;
+}
+
+#about h3 {
+  text-align: center;
+  width: 100%;
+}
+
+#extra-services {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+#extra-services h3 {
+  font-size: 2em;
+  margin-bottom: 40px;
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  justify-items: center;
+}
+
+.service-card {
+  background-color: #1f1f1f;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 300px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 191, 255, 0.2);
+}
+
+.service-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.service-card h4 {
+  font-size: 1.3em;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.service-card p {
+  color: #bbbbbb;
+  font-size: 1em;
+}
+
+.services-section {
+  padding: 60px 20px;
+  background-color: #111; 
+  color: #fff;
+  text-align: center;
+}
+
+.services-section h2 {
+  font-size: 2em;
+  margin-bottom: 40px;
+  letter-spacing: 2px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+}
+
+.service-card {
+  background-color: #1c1c1c;
+  border-radius: 16px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.service-card h3 {
+  font-size: 1.3em;
+  margin-bottom: 10px;
+  color: #fefefe;
+}
+
+.service-card p {
+  font-size: 0.95em;
+  color: #ccc;
+}
+
+.tagline-section {
+  background-image: url('images/SM.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+
+  width: 100%;
+  height: 400px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tagline-section {
+  margin-top: 40px; 
+  width: 100%;
+  background-image: url('images/SM-min.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.tagline-section h1 {
+  font-size: 36px; /* Increase or decrease as needed */
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.tagline-section p {
+  font-size: 20px; /* Adjust this too if needed */
+  margin-top: 0;
+}
